@@ -1,0 +1,32 @@
+.link-holder {
+    place-self: center;
+    margin-top: 20px;
+    width: 400px;
+    place-content: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 0;
+    border: 0;
+    .span {
+      place-self: center;
+    }
+    #github {
+      @include buttonProps;
+    }
+    #github:hover {
+      @include boxShadow;
+    }
+    #linkedin {
+      @include buttonProps;
+    }
+    #linkedin:hover {
+      @include boxShadow;
+    }
+    #youtube {
+      @include buttonProps;
+    }
+    #youtube:hover {
+      @include boxShadow; 
+    }
+  }

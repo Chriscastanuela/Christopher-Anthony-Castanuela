@@ -1,7 +1,27 @@
-/* This is an example of using Sass, otherwise plain CSS works too*/
-$primary-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-;
-
-body {
-  background: $primary-background;
+@mixin buttonProps {
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 0;
+  max-width: 50px;
 }
+@mixin boxShadow {
+  box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee, 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+}
+body {
+  display: grid;
+}
+.Body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  // display: flex;
+  place-content: center;
+}
+@import 'sig-space.scss';
+.line-break {
+  color: #F4F5DB;
+}
+@import 'contact-info.scss';
+@import 'link-holder.scss';
