@@ -11,10 +11,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "http://Chriscastanuela.github.io/christopher-anthony-castanuela.git",
+  "homepage": "http://Chriscastanuela.github.io/Christopher-Anthony-Castanuela.git",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chriscastanuela/christopher-anthony-castanuela.git"
+    "url": "git+https://github.com/Chriscastanuela/Christopher-Anthony-Castanuela.git"
   },
   "author": "Turing School of Software and Design",
   "license": "MIT",
