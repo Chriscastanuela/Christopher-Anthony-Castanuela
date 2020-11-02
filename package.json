@@ -1,5 +1,5 @@
 {
-  "name": "webpack-starter-kit",
+  "name": "christopher-anthony-castanuela",
   "version": "1.0.0",
   "description": "Project starter kit using webpack, mocha, chai, and SCSS/SASS enabled",
   "main": "src/index.js",
@@ -11,10 +11,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "http://Chriscastanuela.github.io/Christopher-Anthony-Castanuela.git",
+  "homepage": "http://Chriscastanuela.github.io/christopher-anthony-castanuela.git",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chriscastanuela/Christopher-Anthony-Castanuela.git"
+    "url": "git+https://github.com/Chriscastanuela/christopher-anthony-castanuela.git"
   },
   "author": "Turing School of Software and Design",
   "license": "MIT",
