@@ -7,11 +7,14 @@
     "start": "webpack-dev-server",
     "build": "webpack",
     "test": "mochapack 'test/**/*.js'",
-    "lint": "./node_modules/.bin/eslint 'src/**.js' 'test/**.js'"
+    "lint": "./node_modules/.bin/eslint 'src/**.js' 'test/**.js'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "http://Chriscastanuela.github.io/Christopher-Anthony-Castanuela.git",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/turingschool-examples/webpack-starter-kit.git"
+    "url": "git+https://github.com/Chriscastanuela/Christopher-Anthony-Castanuela.git"
   },
   "author": "Turing School of Software and Design",
   "license": "MIT",
