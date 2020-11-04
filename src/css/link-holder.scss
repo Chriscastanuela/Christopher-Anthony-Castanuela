@@ -11,22 +11,10 @@
     .span {
       place-self: center;
     }
-    #github {
+    #github, #linkedin, #medium, #youtube {
       @include buttonProps;
     }
-    #github:hover {
+    #github:hover, #linkedin:hover, #medium:hover, #youtube:hover {
       @include boxShadow;
-    }
-    #linkedin {
-      @include buttonProps;
-    }
-    #linkedin:hover {
-      @include boxShadow;
-    }
-    #youtube {
-      @include buttonProps;
-    }
-    #youtube:hover {
-      @include boxShadow; 
     }
   }

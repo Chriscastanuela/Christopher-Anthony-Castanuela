@@ -1,28 +1,81 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <title>Chris Castanuela</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-    </style>
-  </head>
-  <body class="Body">
-    <section class="signature-space">
-      <h1 class="Signature">Christopher Anthony Castanuela</h1>
-    </section>
-    <hr width="400px" class="line-break">
-    <section class="contact-info">
-      <!-- <p class="p-tags" style="margin-bottom: 10px;">Web and software dev | Insurance Adjuster | U.S. Navy</p> -->
-      <p class="p-tags">chriscastanuela@ymail.com</p>
-      <p class="p-tags">chriscastanuela@gmail.com</p>
-    </section>
-    <section class="link-holder">
-      <span class="span">
-      <a href="https://github.com/Chriscastanuela"><img src="./images/github.png" alt="github link" class="links" id="github"></a>
-      <a href="https://www.linkedin.com/in/christophercastanuela"><img src="./images/linkedin.png" alt="linkedin link" class="links" id="linkedin"></a>
-      <!-- <img src="./images/youtube.png" alt="youtube link" class="links" id="youtube"> -->
-      </span>
-    </section>
-  <script type="text/javascript" src="main.bundle.js"></script></body>
-</html>
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Entry module not found: Error: Can't resolve '/Users/Christopher/Coding/My-Sit  e/src/index.html' in '/Users/Christopher/Coding/e':
+  Error: Can't resolve '/Users/Christopher/Coding/e/src/index.html' in '/U  sers/Christopher/Coding/My-Site'
+  
+  - compiler.js:79 
+    [My-Site]/[html-webpack-plugin]/lib/compiler.js:79:16
+  
+  - Compiler.js:343 
+    [My-Site]/[webpack]/lib/Compiler.js:343:11
+  
+  - Compiler.js:681 
+    [My-Site]/[webpack]/lib/Compiler.js:681:15
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [My-Site]/[tapable]/lib/Hook.js:154:20
+  
+  - Compiler.js:678 
+    [My-Site]/[webpack]/lib/Compiler.js:678:31
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [My-Site]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1423 
+    [My-Site]/[webpack]/lib/Compilation.js:1423:35
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [My-Site]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1414 
+    [My-Site]/[webpack]/lib/Compilation.js:1414:32
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [My-Site]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1409 
+    [My-Site]/[webpack]/lib/Compilation.js:1409:36
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [My-Site]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1405 
+    [My-Site]/[webpack]/lib/Compilation.js:1405:32
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [My-Site]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1342 Compilation.seal
+    [My-Site]/[webpack]/lib/Compilation.js:1342:27
+  
+  - Compiler.js:675 
+    [My-Site]/[webpack]/lib/Compiler.js:675:18
+  
+  - Compilation.js:1261 
+    [My-Site]/[webpack]/lib/Compilation.js:1261:4
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [My-Site]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1253 Compilation.finish
+    [My-Site]/[webpack]/lib/Compilation.js:1253:28
+  
+  - Compiler.js:672 
+    [My-Site]/[webpack]/lib/Compiler.js:672:17
+  
+  
+  - Compilation.js:1185 
+    [My-Site]/[webpack]/lib/Compilation.js:1185:12
+  
+  - Compilation.js:1044 errorAndCallback
+    [My-Site]/[webpack]/lib/Compilation.js:1044:6
+  
+</pre><script type="text/javascript" src="main.bundle.js"></script>
