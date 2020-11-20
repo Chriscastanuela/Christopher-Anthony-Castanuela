@@ -14,7 +14,13 @@
   #github, #linkedin, #medium, #youtube, #coffee {
     @include buttonProps;
   }
+  #coffee {
+    @include buttonProps;
+  }
   #github:hover, #linkedin:hover, #medium:hover, #youtube:hover, #coffee:hover {
+    @include boxShadow;
+  }
+  #coffee:hover {
     @include boxShadow;
   }
 }
