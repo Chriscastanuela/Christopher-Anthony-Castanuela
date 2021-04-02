@@ -1,25 +1,32 @@
 @mixin buttonProps {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: .5em;
+  margin-right: .5em;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: .25em;
   margin-bottom: 0;
-  max-width: 50px;
+  max-width: 3.5em;
 }
 @mixin boxShadow {
+  // box-shadow: 0 0px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee, 0 5px 50px 0 #15f4ee, 0 5px 50px 0 #15f4ee;
   box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee, 0 5px 50px 0 #15f4ee, 0 5px 50px 0 #15f4ee;
 }
 body {
   display: grid;
+  height: 100vh;
 }
 .Body {
-  background-color: black;
+  background-image: linear-gradient(to right bottom, grey, #000000eb);
   margin: 0;
   padding: 0;
   place-content: center;
+  // position: absolute;
+  // top: 40%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
 }
 .line-break {
-  color: #F4F5DB;
+  // color: #F4F5DB;
+  color: #ffffff;
 }
 
 @import 'sig-space.scss';

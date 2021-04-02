@@ -1,11 +1,14 @@
 .signature-space {
   display: flex;
   place-content: center;
-  margin-bottom: 0px;
+  margin-bottom: 0;
+  height: 4vh;
   .Signature {
     font-family: 'Herr Von Muellerhoff', cursive;
-    color: #F4F5DB;
-    font-size:100px;
-    margin-bottom: 10px;
+    // color: #F4F5DB;
+    color: #ffffff;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    margin-top: -1em;
   }
 }
