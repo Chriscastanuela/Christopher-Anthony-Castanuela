@@ -16,12 +16,12 @@ body {
   background-color: black;
   margin: 0;
   padding: 0;
-  // display: flex;
   place-content: center;
 }
-@import 'sig-space.scss';
 .line-break {
   color: #F4F5DB;
 }
+
+@import 'sig-space.scss';
 @import 'contact-info.scss';
 @import 'link-holder.scss';
